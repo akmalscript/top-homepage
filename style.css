@@ -10,6 +10,11 @@
     --steel-gray: #595959;
     --sea-darkblue: #2596be;
     --soft-linen: #f1f0ea;
+    --deep-red: #dc2626;
+    --soft-violet: #7c3aed;
+    --forest-fern: #16a34a;
+    --orchid-pink: #db2777;
+    --golden-amber: #ca8a04;
 }
 html {
     /* set 1rem = 12px */
@@ -94,6 +99,11 @@ header {
 .icons a svg {
     width: 2rem;
     height: 2rem;
+    transition: transform .15s ease-in-out;
+}
+.icons a svg:hover {
+    transform-origin: bottom;
+    transform: scale(1.3);
 }
 
 /* Main  */
@@ -111,7 +121,7 @@ main h2 {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5rem;
+    gap: 3rem;
 }
 .card {
     max-width: 30rem;
@@ -119,22 +129,46 @@ main h2 {
     /* height: 31rem;
        (card-photo + card-info)*/
 }
-.card-photo {
+.card-photo1,
+.card-photo2,
+.card-photo3,
+.card-photo4,
+.card-photo5,
+.card-photo6,
+.card-photo7 {
     width: 100%;
-    height: 19rem;
-    background-color: var(--sea-blue);
+    height: 15rem;
     color: var(--white);
 
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+}
+.card-photo1,
+.card-photo7 {
+    background-color: var(--soft-violet);
+}
+.card-photo2 {
+    background-color: var(--forest-fern);
+}
+.card-photo3 {
+    background-color: var(--orchid-pink);
+}
+.card-photo4 {
+    background-color: var(--sea-blue);
+}
+.card-photo5 {
+    background-color: var(--golden-amber);
+}
+.card-photo6 {
+    background-color: var(--deep-red);
 }
 .card-info {
     background-color: var(--white);
     width: 100%;
-    height: 12rem;
+    height: 10rem;
     
     padding: 1rem 2rem;
     display: flex;
@@ -156,6 +190,11 @@ main h2 {
 }
 .card-icons svg {
     height: 2rem;
+    transition: transform .15s ease-in-out;
+}
+.card-icons svg:hover {
+    transform-origin: bottom;
+    transform: scale(1.2);
 }
 .card-info p {
     font-family: "Roboto", serif;
@@ -226,6 +265,11 @@ footer {
 }
 .left-container .footer-icons svg {
     width: 2.4rem;
+    transition: transform .15s ease-in-out;
+}
+.left-container .footer-icons svg:hover {
+    transform-origin: bottom;
+    transform: scale(1.2);
 }
 
 @media (max-width: 1024px) {
