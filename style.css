@@ -73,7 +73,6 @@ header {
 .about-me-container {
     max-width: 50rem;
     padding: 2rem;
-    background-color: var(--white);
     box-shadow: 0 0.1rem 1rem var(--steel-gray);
     background-color:  var(--soft-linen);
 
