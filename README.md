@@ -2,7 +2,7 @@
 
 ## Output
 
-Check out [The Live Page](https://snowyfor.github.io/top-homepage/)
+Check out [The Live Page](https://akmalscript.github.io/top-homepage/)
 
 ## Technologies
 
