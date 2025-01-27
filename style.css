@@ -62,7 +62,6 @@ header {
     box-shadow: 0 0.1rem 1rem var(--steel-gray);
 }
 .photo-container h2 {
-    width: 100%;
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -202,7 +201,6 @@ main h2 {
 /* Footer */
 
 footer {
-    width: 100%;
     background-color: var(--sea-darkblue);
     color: var(--white);
 }
