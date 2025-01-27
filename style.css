@@ -297,11 +297,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-    /* Main  */
-    .card-info {
-        
-    }
-
     /* Footer */
     .left-container .contact-detail a svg {
         display: none;
